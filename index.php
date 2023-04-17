@@ -5,7 +5,7 @@ include "Koneksi.php";
 // Cek apakah session login sudah di-set
 if (!isset($_SESSION['username'])) {
 	// Jika belum, redirect ke halaman login
-	header('Location: Login.php');
+	header('Location:Login.php');
 	exit();
 }
 ?>
