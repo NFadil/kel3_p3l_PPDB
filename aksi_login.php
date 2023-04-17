@@ -14,7 +14,7 @@
             // buat session login dan username
             $_SESSION['username'] = $user;
             // alihkan ke halaman dashboard admin
-            header("location:dashboard.php");
+            header("location:index.php");
 
             
         }
