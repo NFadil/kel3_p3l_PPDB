@@ -1,3 +1,14 @@
+<?php
+session_start();
+include "Koneksi.php";
+
+// Cek apakah session login sudah di-set
+if (!isset($_SESSION['username'])) {
+    // Jika belum, redirect ke halaman login
+    header('Location:Login.php');
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,26 +52,26 @@
         <div class="header_bg">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="logo" href="index.html"><img src="images/logo.png"></a>
+                    <a class="logo" href="index.php"><img src="images/logo.png"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
+                                <a class="nav-link" href="about.php">About</a>
+                            </li>
+                            <li class="nav-item  active">
+                                <a class="nav-link" href="services.php">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="services.html">Services</a>
+                                <a class="nav-link" href="blog.php">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
+                                <a class="nav-link" href="contact.php">Contact Us</a>
                             </li>
                         </ul>
                         <div class="call_section">
