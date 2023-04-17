@@ -76,11 +76,8 @@ if (!isset($_SESSION['username'])) {
                         </ul>
                         <div class="call_section">
                             <ul>
-                                <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                                <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                                <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                                <div class="donate_bt"><a href="#"><img src="images/search-icon.png"></a></div>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Sign In</a></li>
                             </ul>
                         </div>
                     </div>
