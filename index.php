@@ -76,8 +76,7 @@ if (!isset($_SESSION['username'])) {
                         </ul>
                         <div class="call_section">
                             <ul>
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Sign In</a></li>
+                                <li><a href="logout.php">Logout</a></li>
                             </ul>
                         </div>
                     </div>
