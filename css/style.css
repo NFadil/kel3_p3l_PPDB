@@ -224,8 +224,9 @@ button {
 
 /* header section start */
 
-.logo {
-  width: 20%;
+.logo img {
+  width: 10px;
+  height: 10px;
 }
 .header_section {
   width: 100%;

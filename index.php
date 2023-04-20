@@ -27,7 +27,7 @@ if (!isset($_SESSION['username'])) {
     <!-- owl carousel style -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css" />
     <!-- bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- style css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Responsive-->
@@ -51,8 +51,8 @@ if (!isset($_SESSION['username'])) {
     <div class="header_section">
         <div class="header_bg">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="logo" href="index.html"><img src="images/logo.png"> SMA SEDERHANA</a>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+                    <a class="logo" href="index.php"><img src="images/logo.png"> PPDB SMA SEDERHANA</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
