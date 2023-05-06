@@ -1,12 +1,12 @@
-<?php 
+<?php
 session_start();
 include "Koneksi.php";
 
 // Cek apakah session login sudah di-set
 if (!isset($_SESSION['username'])) {
-	// Jika belum, redirect ke halaman login
-	header('Location:Login.php');
-	exit();
+    // Jika belum, redirect ke halaman login
+    header('Location:Login.php');
+    exit();
 }
 ?>
 <!DOCTYPE html>
@@ -20,14 +20,14 @@ if (!isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>Casinal</title>
+    <title>Home</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- owl carousel style -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css" />
     <!-- bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- style css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Responsive-->
@@ -51,8 +51,8 @@ if (!isset($_SESSION['username'])) {
     <div class="header_section">
         <div class="header_bg">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="logo" href="index.html"><img src="images/logo.png"></a>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+                    <a class="logo" href="index.php"><img src="images/logo.png"> PPDB SMA SEDERHANA</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -62,10 +62,17 @@ if (!isset($_SESSION['username'])) {
                                 <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
+<<<<<<< HEAD
                                 <a class="nav-link" href="about.php">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="services.php">Services</a>
+=======
+                                <a class="nav-link" href="about.php">Hasil Seleksi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.php">Info Sekolah</a>
+>>>>>>> c221a840fca33d40cd793e98044588228c1b2e24
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="blog.php">Blog</a>
@@ -76,11 +83,7 @@ if (!isset($_SESSION['username'])) {
                         </ul>
                         <div class="call_section">
                             <ul>
-                                <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                                <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                                <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                                <div class="donate_bt"><a href="#"><img src="images/search-icon.png"></a></div>
+                                <li><a href="logout.php">Logout</a></li>
                             </ul>
                         </div>
                     </div>

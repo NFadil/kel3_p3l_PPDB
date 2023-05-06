@@ -1,3 +1,14 @@
+<?php
+session_start();
+include "Koneksi.php";
+
+// Cek apakah session login sudah di-set
+if (!isset($_SESSION['username'])) {
+    // Jika belum, redirect ke halaman login
+    header('Location:Login.php');
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,11 +58,16 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
+<<<<<<< HEAD
                             <li class="nav-item active">
+=======
+                            <li class="nav-item">
+>>>>>>> c221a840fca33d40cd793e98044588228c1b2e24
                                 <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="about.php">About</a>
+<<<<<<< HEAD
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="services.php">Services</a>
@@ -60,16 +76,22 @@
                                 <a class="nav-link" href="blog.php">Blog</a>
                             </li>
                             <li class="nav-item">
+=======
+                            </li>
+                            <li class="nav-item  active">
+                                <a class="nav-link" href="services.php">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.php">Blog</a>
+                            </li>
+                            <li class="nav-item">
+>>>>>>> c221a840fca33d40cd793e98044588228c1b2e24
                                 <a class="nav-link" href="contact.php">Contact Us</a>
                             </li>
                         </ul>
                         <div class="call_section">
                             <ul>
-                                <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                                <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                                <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                                <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                                <div class="donate_bt"><a href="#"><img src="images/search-icon.png"></a></div>
+                                <li><a href="logout.php">Logout</a></li>
                             </ul>
                         </div>
                     </div>
