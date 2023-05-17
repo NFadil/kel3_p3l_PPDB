@@ -58,16 +58,11 @@ if (!isset($_SESSION['username'])) {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-<<<<<<< HEAD
                             <li class="nav-item active">
-=======
-                            <li class="nav-item">
->>>>>>> c221a840fca33d40cd793e98044588228c1b2e24
                                 <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="about.php">About</a>
-<<<<<<< HEAD
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="services.php">Services</a>
@@ -76,16 +71,6 @@ if (!isset($_SESSION['username'])) {
                                 <a class="nav-link" href="blog.php">Blog</a>
                             </li>
                             <li class="nav-item">
-=======
-                            </li>
-                            <li class="nav-item  active">
-                                <a class="nav-link" href="services.php">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="blog.php">Blog</a>
-                            </li>
-                            <li class="nav-item">
->>>>>>> c221a840fca33d40cd793e98044588228c1b2e24
                                 <a class="nav-link" href="contact.php">Contact Us</a>
                             </li>
                         </ul>

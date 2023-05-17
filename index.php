@@ -62,17 +62,10 @@ if (!isset($_SESSION['username'])) {
                                 <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
-<<<<<<< HEAD
                                 <a class="nav-link" href="about.php">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="services.php">Services</a>
-=======
-                                <a class="nav-link" href="about.php">Hasil Seleksi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="services.php">Info Sekolah</a>
->>>>>>> c221a840fca33d40cd793e98044588228c1b2e24
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="blog.php">Blog</a>

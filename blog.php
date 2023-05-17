@@ -68,7 +68,6 @@ if (!isset($_SESSION['username'])) {
                                 <a class="nav-link" href="services.php">Services</a>
                             </li>
                             <li class="nav-item active">
-<<<<<<< HEAD
                                 <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
@@ -81,11 +80,6 @@ if (!isset($_SESSION['username'])) {
                                 <a class="nav-link" href="blog.php">Blog</a>
                             </li>
                             <li class="nav-item">
-=======
-                                <a class="nav-link" href="blog.php">Blog</a>
-                            </li>
-                            <li class="nav-item">
->>>>>>> c221a840fca33d40cd793e98044588228c1b2e24
                                 <a class="nav-link" href="contact.php">Contact Us</a>
                             </li>
                         </ul>
