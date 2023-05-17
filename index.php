@@ -62,10 +62,10 @@ if (!isset($_SESSION['username'])) {
                                 <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.php">About</a>
+                                <a class="nav-link" href="about.php">Pembuatan Jadwal</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="services.php">Services</a>
+                                <a class="nav-link" href="services.php">Tambah Admin</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="blog.php">Blog</a>
@@ -92,8 +92,8 @@ if (!isset($_SESSION['username'])) {
                             <div class="banner_taital_main">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h1 class="banner_taital">Casinal Educations Coachings</h1>
-                                        <p class="banner_text">Eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                        <h1 class="banner_taital">Daftar SMK Dengan Mudah Secara Online</h1>
+                                        <p class="banner_text">Kemudahan Registrasi dimana saja</p>
                                         <div class="btn_main">
                                             <div class="about_bt active"><a href="#">About Us</a></div>
                                             <div class="quote_bt"><a href="#">Get A Quote</a></div>
