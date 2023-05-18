@@ -31,7 +31,6 @@
 	<div class="main">
 		<input type="checkbox" id="chk" aria-hidden="true">
 
-<<<<<<< Updated upstream
 			<div class="signup">
 				<form method = "POST">
 					<label for="chk" aria-hidden="true">Sign up</label>
@@ -41,26 +40,6 @@
 					<button>Sign up</button>
 				</form>
 			</div>
-=======
-		<div class="signup">
-			<form method="POST">
-				<label for="chk" aria-hidden="true">Sign up</label>
-				<input type="text" name="txt" placeholder="User name" required="">
-				<input type="email" name="email" placeholder="Email" required="">
-				<input type="password" name="pswd" placeholder="Password" required="">
-				<button>Sign up</button>
-			</form>
-		</div>
-		<div class="signup">
-			<form>
-				<label for="chk" aria-hidden="true">Sign up</label>
-				<input type="text" name="txt" placeholder="User name" required="">
-				<input type="email" name="email" placeholder="Email" required="">
-				<input type="password" name="pswd" placeholder="Password" required="">
-				<button>Sign up</button>
-			</form>
-		</div>
->>>>>>> Stashed changes
 
 		<div class="login">
 			<form method="POST">
