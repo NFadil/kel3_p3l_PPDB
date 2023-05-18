@@ -92,11 +92,11 @@ if (!isset($_SESSION['username'])) {
                             <div class="banner_taital_main">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h1 class="banner_taital">Daftar SMK Dengan Mudah Secara Online</h1>
+                                        <h1 class="banner_taital">Daftar SMA Dengan Mudah Secara Online</h1>
                                         <p class="banner_text">Kemudahan Registrasi dimana saja</p>
                                         <div class="btn_main">
-                                            <div class="about_bt active"><a href="#">About Us</a></div>
-                                            <div class="quote_bt"><a href="#">Get A Quote</a></div>
+                                            <div class="about_bt active"><a href="#">Tentang Kami</a></div>
+                                            <div class="quote_bt"><a href="#">Tanya Kami</a></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -111,11 +111,11 @@ if (!isset($_SESSION['username'])) {
                             <div class="banner_taital_main">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h1 class="banner_taital">Casinal Educations Coachings</h1>
-                                        <p class="banner_text">Eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                        <h1 class="banner_taital">Daftar SMA Dengan Mudah Secara Online</h1>
+                                        <p class="banner_text">Kemudahan Registrasi dimana saja</p>
                                         <div class="btn_main">
-                                            <div class="about_bt active"><a href="#">About Us</a></div>
-                                            <div class="quote_bt"><a href="#">Get A Quote</a></div>
+                                            <div class="about_bt active"><a href="#">Tentang Kami</a></div>
+                                            <div class="quote_bt"><a href="#">Tanya Kami</a></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -375,7 +375,7 @@ if (!isset($_SESSION['username'])) {
     <!-- copyright section start -->
     <div class="copyright_section">
         <div class="container">
-            <p class="copyright_text">© 2020 All Rights Reserved. <a href="https://html.design">Free html Templates</a></p>
+            <p class="copyright_text">© 2023 Kelompok P3L. <a href="https://html.design"></a></p>
         </div>
     </div>
     <!-- copyright section end -->
